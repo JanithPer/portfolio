@@ -43,7 +43,7 @@ const HomePage = () => {
       {/* Image */}
       <div className="mt-8 md:mt-0 md:w-1/2 flex justify-center">
         <img
-          src="/Me-no-bg.png"
+          src="https://raw.githubusercontent.com/JanithPer/portfolio/refs/heads/main/public/me-no-bg.png"
           className="w-full max-w-[300px] sm:max-w-[400px] md:max-w-[550px]"
           alt="Image of me"
         />
