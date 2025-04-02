@@ -80,7 +80,7 @@ const NavBar = () => {
           <NavLink 
             key={href} 
             href={href}
-            onClick={onclick ? (e) => { onclick(); } : undefined}
+            onClick={onclick ? () => { onclick(); } : undefined}
           >
             {label}
           </NavLink>
@@ -95,7 +95,7 @@ const NavBar = () => {
           <NavLink 
             key={href} 
             href={href}
-            onClick={onclick ? (e) => { onclick(); } : undefined}
+            onClick={onclick ? () => { onclick(); } : undefined}
           >
             {label}
           </NavLink>
