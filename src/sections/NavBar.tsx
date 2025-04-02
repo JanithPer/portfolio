@@ -35,9 +35,13 @@ const NavBar = () => {
     window.open('https://wa.me/94754057355', '_blank', 'noopener,noreferrer');
   };
 
+  const openKolvio = () => {
+    window.open('https://www.kolvio.com', '_blank', 'noopener,noreferrer');
+  };
+
   const navLinks1 = [
-    { href: "#home", label: "Home" },
-    { href: "#kolvio", label: "Kolvio" },
+    { href: "/", label: "Home" },
+    { href: "#kolvio", label: "Kolvio", onclick: openKolvio },
   ];
   const navLinks2 = [
     { href: "#contact", label: "Contact Me", onclick: openWhatsApp },
@@ -72,8 +76,14 @@ const NavBar = () => {
     <div className="w-[95%] md:w-[90%] mx-auto p-2 pt-4 flex justify-between md:justify-center items-center bg-white dark:bg-gray-900 transition-colors duration-300">
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-6">
-        {navLinks1.map(({ href, label }) => (
-          <NavLink key={href} href={href}>{label}</NavLink>
+      {navLinks1.map(({ href, label, onclick }) => (
+          <NavLink 
+            key={href} 
+            href={href}
+            onClick={onclick ? (e) => { onclick(); } : undefined}
+          >
+            {label}
+          </NavLink>
         ))}
         <button 
           onClick={toggleDarkMode} 
