@@ -156,7 +156,7 @@ const NavBar = () => {
               <NavLink 
                 key={href} 
                 href={href}
-                onClick={(e) => {
+                onClick={() => {
                   toggleMenu();
                   if (onclick) onclick();
                 }}
