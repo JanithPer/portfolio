@@ -1,6 +1,6 @@
 const HomePage = () => {
   return (
-    <div className="flex flex-col md:flex-row p-4 justify-center items-center min-h-[calc(100vh-100px)] bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="flex flex-col md:flex-row p-4 justify-center items-center min-h-[calc(100vh-100px)] transition-colors duration-300">
       {/* Text Content */}
       <div className="text-center md:text-left px-2 md:px-10 md:w-1/2">
         <h1 className="text-3xl sm:text-4xl font-bold text-gray-900 dark:text-white">

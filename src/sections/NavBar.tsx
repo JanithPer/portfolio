@@ -73,7 +73,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <div className="w-[95%] md:w-[90%] mx-auto p-2 pt-4 flex justify-between md:justify-center items-center bg-white dark:bg-gray-900 transition-colors duration-300">
+    <div className="w-[95%] md:w-[90%] mx-auto p-2 pt-4 flex justify-between md:justify-center items-center transition-colors duration-300">
       {/* Desktop Navigation */}
       <nav className="hidden md:flex space-x-6">
       {navLinks1.map(({ href, label, onclick }) => (

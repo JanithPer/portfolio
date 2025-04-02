@@ -8,7 +8,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="flex gap-3 justify-center py-1 pt-5 bg-white dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300">
+    <div className="flex gap-3 justify-center py-1 pt-5 text-gray-900 dark:text-white transition-colors duration-300">
       <Facebook className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400" />
       <Instagram className="cursor-pointer hover:text-pink-600 dark:hover:text-pink-400" />
       <Github className="cursor-pointer hover:text-gray-700 dark:hover:text-gray-300" />
