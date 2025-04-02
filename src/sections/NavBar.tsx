@@ -143,11 +143,14 @@ const NavBar = () => {
 
           {/* Mobile Navigation Links */}
           <nav className="flex flex-col space-y-6">
-            {navLinks1.map(({ href, label }) => (
+            {navLinks1.map(({ href, label, onclick }) => (
               <NavLink 
                 key={href} 
                 href={href}
-                onClick={toggleMenu}
+                onClick={() => {
+                  toggleMenu();
+                  if (onclick) onclick();
+                }}
               >
                 {label}
               </NavLink>
