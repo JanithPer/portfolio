@@ -13,7 +13,6 @@ const Footer = () => {
         href="https://kolvio.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:underline dark:text-blue-400 dark:hover:underline"
       >
         <Facebook className="cursor-pointer hover:text-blue-600 dark:hover:text-blue-400" />
       </a>
@@ -21,7 +20,6 @@ const Footer = () => {
         href="https://kolvio.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:underline dark:text-blue-400 dark:hover:underline"
       >
         <Instagram className="cursor-pointer hover:text-pink-600 dark:hover:text-pink-400" />
       </a>
@@ -29,7 +27,6 @@ const Footer = () => {
         href="https://kolvio.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:underline dark:text-blue-400 dark:hover:underline"
       >
         <Github className="cursor-pointer hover:text-gray-700 dark:hover:text-gray-300" />
       </a>
@@ -37,7 +34,6 @@ const Footer = () => {
         href="https://kolvio.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:underline dark:text-blue-400 dark:hover:underline"
       >
         <Linkedin className="cursor-pointer hover:text-blue-700 dark:hover:text-blue-500" />
       </a>
@@ -45,7 +41,6 @@ const Footer = () => {
         href="https://kolvio.com"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-blue-600 hover:underline dark:text-blue-400 dark:hover:underline"
       >
         <Twitter className="cursor-pointer hover:text-blue-500 dark:hover:text-blue-300" />
       </a>
